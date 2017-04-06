@@ -1,0 +1,2792 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Cache-Control" content="no-transform" />
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<meta name="format-detection" content="telephone=no" />
+	<link href="http://sh.lianjia.com/public/img/favicon.ico" type="image/x-icon" rel=icon>
+	<link href="http://sh.lianjia.com/public/img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<title>上海二手房|上海二手房出售|最新上海二手房信息 - 上海链家网</title>
+	<meta name="keywords" content="上海二手房,上海二手房信息,上海二手房买卖" />
+	<meta name="description" content="链家上海二手房房产网，房源真实可靠无虚假无重复，让每一个用户安心满意的进行上海二手房交易。买房卖房上链家网，大平台服务有保障！" />
+	<link rel="stylesheet" href="http://sh.lianjia.com/public/css/common.css?v=1491022000000">
+	<link rel="stylesheet" href="http://sh.lianjia.com/public/css/header.css?v=1491022000000">
+	<link rel="stylesheet" href="http://sh.lianjia.com/public/css/weiliao.css?v=1491022000000">
+	
+		
+			
+				<link rel="stylesheet" href="http://cdn7.dooioo.com/static/css/list.css?v=1491022000000"/>
+			
+		
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://sh.lianjia.com/public/js/html5.js"></script>
+	<![endif]-->
+	<script>
+		var headerParameters = {
+			env : 'production',
+			publichost : 'http://sh.lianjia.com',
+			photohost : 'http://cdn1.dooioo.com',
+			statichost : 'http://cdn7.dooioo.com',
+			managehost : 'http://support.dooioo.com',
+			webhost : 'http://sh.lianjia.com',
+			xinfanghost : 'http://sh.fang.lianjia.com',
+			uchost : 'http://user.sh.lianjia.com',
+			agenthost : 'http://agent.sh.lianjia.com',
+			apihost : 'http://soa.dooioo.com',
+			openhost : 'http://open.dooioo.com',
+			chathost : 'http://chat.dooioo.com',
+			loginhost:'http://huihua.lianjia.com',
+			cityId : '310000',
+			cityCode : 'sh',
+			cityName : '上海',
+			lianjiaSource:'',
+			lianjiaSignature:'',
+			newHouseModuleSwitch:'true',
+			hasFixBar : true, //是否有右侧边栏
+			hasSaveSearch : true //是否支持登录后把缓存在本地local中的“已保存搜索”数据存入服务端功能
+		}
+	</script>
+
+	<script src="http://sh.lianjia.com/public/js/jquery/jquery.min.js"></script>
+	<script src="http://sh.lianjia.com/public/js/jquery/jQuery.XDomainRequest.js"></script>
+	<script src="http://sh.lianjia.com/public/js/jquery/jquery.qrcode.min.js"></script>
+	<script src="http://sh.lianjia.com/public/js/jquery/jquery-upload-1.0.js?v=1491022000000"></script>
+	<script src="http://sh.lianjia.com/public/js/jquery/jquery-jtemplates.js"></script>
+	<script src="http://sh.lianjia.com/public/js/jquery/jquery.cookie.js"></script>
+	<script src="http://cdn7.dooioo.com/static/js/common.js?v=1491022000000"></script>
+	<script src="http://sh.lianjia.com/public/js/saveSearchInit.js?v=1491022000000"></script>
+</head>
+
+<body>
+<!--[if lte IE 8]>
+<div class="old-browser-popup" id="old" >
+	亲，您当前正在使用旧版本的IE浏览器，为了保证您的浏览体验，链家网建议您使用：<label class="chrome-borwser-ico"></label><a href="http://rj.baidu.com/soft/detail/14744.html?ald" target="_blank">谷歌浏览器</a>&nbsp;或&nbsp;&nbsp;<label class="firefox-borwser-ico"></label><a href="http://rj.baidu.com/soft/detail/11843.html?ald" target="_blank">火狐浏览器</a>
+	<span id="oldclose"></span>
+</div>
+<![endif]-->
+
+<!--begin: header-->
+<header class="lj_header" id="lianjia-header" systemid="ershoufang"></header>
+<script src="http://sh.lianjia.com/public/js/header.js?v=1491022000000"></script>
+<!--end: header-->
+
+<!--begin: searchs Top -->
+<div class="lj_searchs ">
+	<div class="wrapper clear">
+		<a href="/" class="lj_logo fl"></a>
+		<div class="label fl">二手房</div>
+		<div class="search-txt fr">
+			<form id="formSearch" class="clear" action="/ershoufang/rs" actData="ershoufang"  method="post">
+				<div class="search-tab">
+					<i class="icon"></i>
+					<div class="check" id="channelChked" formact="/ershoufang/rs" actData="ershoufang" gahref="search_channel">二手房</div>
+					<ul class="tabs">
+						<li><label formact="/ershoufang/rs" tips="请输入区域、板块或小区名开始找房" actData="ershoufang">二手房</label></li>
+						
+							<li><label formact="http://sh.fang.lianjia.com/loupan/search" tra="_blank" tips="请输入区域、板块或楼盘名开始找房" actData="xinfang">新房</label></li>
+						
+						
+							
+							<li><label formact="/zufang/rs" tra="_blank" tips="请输入区域、板块或小区名开始找房" actData="zufang">租房</label></li>
+						
+						<li><label formact="/xiaoqu/rs" tra="_blank" tips="请输入小区名" actData="xiaoqu">小区</label></li>
+					</ul>
+					<div class="txt-serach">
+						<a href="javascript:;" class="saveSearchTotal" id="saveSearchTotal"><span></span>条已保存搜索</a>
+						<input value="" pageType="ershoufang" class="left txt autoSuggest" name="keyword" autocomplete="off" placeholder="请输入区域、板块或小区名开始找房" id="keyword-box" popdiv="suggestion" maxlength="20" gahref="search_keyword_box">
+						<div class="hot-sug" id="hot-sug" style="display:block">
+							<ul id="ershoufang">
+								<div class="js_hotList js_history">
+									<li class="hot-name">搜索历史
+										<a href="javascript:;" class="del js_delHisSuggest">清空搜索记录</a>
+									</li>
+									<div class="list">
+									</div>
+								</div>
+								<div class="js_hotList js_hot">
+									<li class="hot-name">热门搜索</li>
+									<div class="list">
+										
+											<li><a href="/ershoufang/rs上海康城" gahref="search_hot_ershoufang_click_order_1">上海康城</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs慧芝湖花园" gahref="search_hot_ershoufang_click_order_2">慧芝湖花园</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs奥林匹克花园" gahref="search_hot_ershoufang_click_order_3">奥林匹克花园</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs中远两湾城" gahref="search_hot_ershoufang_click_order_4">中远两湾城</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs东方曼哈顿" gahref="search_hot_ershoufang_click_order_5">东方曼哈顿</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs新湖明珠城" gahref="search_hot_ershoufang_click_order_6">新湖明珠城</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs经纬城市绿洲" gahref="search_hot_ershoufang_click_order_7">经纬城市绿洲</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/ershoufang/rs保利西子湾" gahref="search_hot_ershoufang_click_order_8">保利西子湾</a></li>
+											
+										
+									</div>
+								</div>
+								<div class="js_hotList js_saveSearch" style="display:block">
+									<!--已保存搜索，模板生成-->
+								</div>
+							</ul>
+
+							
+								<ul id="xinfang">
+									<div class="js_hotList js_history">
+										<li class="hot-name">搜索历史
+											<a href="javascript:;" class="del">清空搜索记录</a>
+										</li>
+										<div class="list">
+										</div>
+									</div>
+									<div class="js_hotList js_hot">
+										<li class="hot-name">热门搜索</li>
+										<div class="list">
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search绿地长岛?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_1">绿地长岛</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search恒大海上威尼斯?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_2">恒大海上威尼斯</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search碧桂园世纪城?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_3">碧桂园世纪城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search中梁秀湖壹号院?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_4">中梁秀湖壹号院</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search智慧城?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_5">智慧城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search伟鹏金郡?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_6">伟鹏金郡</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search瀛海花墅?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_7">瀛海花墅</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search佳兆业城市广场?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_8">佳兆业城市广场</a></li>
+												<li class="line"></li>
+											
+												<li><a href="http://sh.fang.lianjia.com/loupan/search上海院子?utm_source=shershoufang&utm_medium=referral&utm_campaign=search" gahref="search_hot_xinfang_click_order_9">上海院子</a></li>
+												
+											
+										</div>
+									</div>
+									<div class="js_hotList js_saveSearch" style="display:block">
+										<!--已保存搜索，模板生成-->
+									</div>
+								</ul>
+							
+
+							
+								
+									
+										
+										
+										
+									
+									
+										
+										
+											
+												
+												
+											
+										
+									
+								
+
+								<ul id="zufang">
+									<div class="js_hotList js_history">
+										<li class="hot-name">搜索历史
+											<a href="javascript:;" class="del">清空搜索记录</a>
+										</li>
+										<div class="list">
+										</div>
+									</div>
+									<div class="js_hotList js_hot">
+										<li class="hot-name">热门搜索</li>
+										<div class="list">
+											
+												<li><a href="/zufang/rs静安新城" gahref="search_hot_zufang_click_order_1">静安新城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs大华锦绣华城" gahref="search_hot_zufang_click_order_2">大华锦绣华城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs中远两湾城" gahref="search_hot_zufang_click_order_3">中远两湾城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs瑞虹新城" gahref="search_hot_zufang_click_order_4">瑞虹新城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs阳光威尼斯" gahref="search_hot_zufang_click_order_5">阳光威尼斯</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs万达广场" gahref="search_hot_zufang_click_order_6">万达广场</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs上海康城" gahref="search_hot_zufang_click_order_7">上海康城</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs馨佳园" gahref="search_hot_zufang_click_order_8">馨佳园</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs九歌上郡" gahref="search_hot_zufang_click_order_9">九歌上郡</a></li>
+												<li class="line"></li>
+											
+												<li><a href="/zufang/rs地杰国际城" gahref="search_hot_zufang_click_order_10">地杰国际城</a></li>
+												
+											
+										</div>
+									</div>
+									<div class="js_hotList js_saveSearch" style="display:block">
+										<!--已保存搜索，模板生成-->
+									</div>
+								</ul>
+							
+							<ul id="xiaoqu">
+								<div class="js_hotList js_history">
+									<li class="hot-name">搜索历史
+										<a href="javascript:;" class="del">清空搜索记录</a>
+									</li>
+									<div class="list">
+									</div>
+								</div>
+								<div class="js_hotList js_hot">
+									<li class="hot-name">热门搜索</li>
+									<div class="list">
+										
+											<li><a href="/xiaoqu/rs中远两湾城" gahref="search_hot_xiaoqu_click_order_1">中远两湾城</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs奥林匹克花园" gahref="search_hot_xiaoqu_click_order_2">奥林匹克花园</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs世茂滨江花园" gahref="search_hot_xiaoqu_click_order_3">世茂滨江花园</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs保利西子湾" gahref="search_hot_xiaoqu_click_order_4">保利西子湾</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs新高苑" gahref="search_hot_xiaoqu_click_order_5">新高苑</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs九城湖滨国际" gahref="search_hot_xiaoqu_click_order_6">九城湖滨国际</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs同润菲诗艾伦" gahref="search_hot_xiaoqu_click_order_7">同润菲诗艾伦</a></li>
+											<li class="line"></li>
+										
+											<li><a href="/xiaoqu/rs仁恒滨江园" gahref="search_hot_xiaoqu_click_order_8">仁恒滨江园</a></li>
+											
+										
+									</div>
+								</div>
+								<div class="js_hotList js_saveSearch" style="display:block">
+									<!--已保存搜索，模板生成-->
+								</div>
+							</ul>
+							<ul style="border:0;"></ul>
+						</div>
+						<div id="suggest-cont" class="suggest-wrap" style="width:628px; display:none">
+							<ul style="width:100%" class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="suggestion" style="display:none">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<input type="text" style="display:none"/>
+				<button type="button" id="btn_topSearch" class="act-search btn home-ico ico-search" gahref="search_submmit">搜索</button>
+			</form>
+			
+		</div>
+		
+			
+				
+					
+						
+					
+					
+						
+					
+					
+						
+					
+				
+
+			
+			
+		
+		
+		
+			
+				
+					
+						
+					
+					
+						
+					
+					
+						
+					
+				
+
+			
+			
+		
+	</div>
+</div>
+<!--保存搜索条件－反馈-->
+<div id="slideMsg_saveSearch" class="slideMsg_saveSearch" style="position:absolute; display:none;">
+	<span>保存成功</span>
+</div>
+
+
+<!--begin:模板－已保存搜索弹层-->
+    <textarea id="template_saveSearchList" style="display:none">
+		<li class="hot-name saveSearch-title">已保存搜索
+			{#if $T.login}
+			<a href="http://user.sh.lianjia.com/search/index">管理&gt;&gt;</a>
+			{#/if}
+		</li>
+		<div class="list saveSearchFix">
+			{#foreach $T.list as list}
+			<li class="filter" id="searchId_{$T.list.id}">
+				<a href="{$T.list.url}?from=saveSearch" title="{$T.list.filter}" class="filter_name">
+					{#foreach $T.list.filterShortCut as filter}
+						<span>{$T.filter}</span>
+					{#/for}
+					{#if $T.list.hasMore}<span style="background:transparent">...</span>{#/if}
+				</a>
+				<a href="javascript:;" class="filter_del" type="{$T.list.type}" searchid="{$T.list.id}">删除</a>
+			</li>
+			{#if !$T.list$last}
+				<li class="line"></li>
+			{#/if}
+			{#/for}
+		</div>
+	</textarea>
+<!--end:模板－已保存搜索弹层-->
+<!--begin:模板－已保存搜索弹层 － 追加的条目（预加载的隐藏项）-->
+    <textarea id="template_saveSearchPreload" style="display:none">
+		<li class="line"></li>
+		{#foreach $T.list as list}
+		<li class="filter" id="searchId_{$T.list.id}">
+			<a href="{$T.list.url}?from=saveSearch" title="{$T.list.filter}" class="filter_name">
+				{#foreach $T.list.filterShortCut as filter}
+				<span>{$T.filter}</span>
+				{#/for}
+				{#if $T.list.hasMore}<span style="background:transparent">...</span>{#/if}
+			</a>
+			<a href="javascript:;" class="filter_del" type="{$T.list.type}" searchid="{$T.list.id}">删除</a>
+		</li>
+		{#if !$T.list$last}
+		<li class="line"></li>
+		{#/if}
+		{#/for}
+	</textarea>
+<!--end:模板－已保存搜索弹层 － 追加的条目（预加载的隐藏项）-->
+
+
+<!-- 视频入口浮层 -->
+
+<script  type="text/javascript">
+	/*var oWrap_video_all = document.getElementById('wrap-video-all');
+	 oWrap_video_all.onclick = function(){
+	 var oVideo_box = document.getElementById('video-box');
+	 var oVideo_close = document.getElementById('video-close');
+	 oVideo_box.style.display = "block";
+	 oVideo_close.onclick = function(){
+	 oVideo_box.style.display = "none";
+	 }
+	 }*/
+</script>
+<!--begin: searchs Top -->
+
+
+		<!--begin: 面包屑-->
+		<div class="intro clear">
+		    <div class="container">
+		        <div class="fl l-txt">
+		            <i class="icon"></i>&nbsp;
+		            <a href="/">链家网上海站</a><span class="stp">&nbsp;&gt;&nbsp;</span>
+		            <a href="/ershoufang/">上海二手房</a>
+		            
+		            
+		        </div>
+		        <div class="fr r-txt"></div>
+		    </div>
+		</div>	
+		<!--end: 面包屑-->
+
+		<!--begin: 正文-->
+		<input type="hidden" id="hidden_saveSearchChannel" value="ershoufang" /><!--初始化“已保存搜索”的频道-->
+
+		<div class="wrapper" style="position:relative">
+			<!--保存搜索条件新手引导-->
+			
+				
+			
+
+			<!--begin: 筛选条件-->
+		    <div class="filter-box">
+		        <div class="hd clear">
+		            <ul class="tab-lst">
+		                <li class="on"><a href="/ershoufang/"><span>全部二手房</span></a></li>
+						<li><a href="/ditiefang/"><span>地铁房</span></a></li>
+		                <!--li><a href="xuequfang_list.html"><span>优质学区</span></a></li-->
+		                <li><a href="/chengjiao/"><span>成交房源</span></a></li>
+						<li><a href="/ditu?dataId=sh&type=city"><span>地图找房</span></a></li>
+		            </ul>
+		            <div class="info"><span class="num">真实房源，假一赔百元，不封顶！</span></div>
+		        </div>
+		        <div class="pd">
+		            <div class="bd" id="filter-options">
+		            	
+		                <dl class="dl-lst clear">
+		                    <dt>区域：</dt>
+		                    <dd>
+		                        <div class="option-list gio_district">
+		                            <a href="/ershoufang/" gahref="district-nolimit"  class="nolimit on" >不限</a>
+									<div class="item-list">
+										
+											<a href="/ershoufang/pudongxinqu" gahref="pudongxinqu" class="" >浦东</a>
+										
+											<a href="/ershoufang/minhang" gahref="minhang" class="" >闵行</a>
+										
+											<a href="/ershoufang/baoshan" gahref="baoshan" class="" >宝山</a>
+										
+											<a href="/ershoufang/xuhui" gahref="xuhui" class="" >徐汇</a>
+										
+											<a href="/ershoufang/putuo" gahref="putuo" class="" >普陀</a>
+										
+											<a href="/ershoufang/yangpu" gahref="yangpu" class="" >杨浦</a>
+										
+											<a href="/ershoufang/changning" gahref="changning" class="" >长宁</a>
+										
+											<a href="/ershoufang/songjiang" gahref="songjiang" class="" >松江</a>
+										
+											<a href="/ershoufang/jiading" gahref="jiading" class="" >嘉定</a>
+										
+											<a href="/ershoufang/huangpu" gahref="huangpu" class="" >黄浦</a>
+										
+											<a href="/ershoufang/jingan" gahref="jingan" class="" >静安</a>
+										
+											<a href="/ershoufang/zhabei" gahref="zhabei" class="" >闸北</a>
+										
+											<a href="/ershoufang/hongkou" gahref="hongkou" class="" >虹口</a>
+										
+											<a href="/ershoufang/qingpu" gahref="qingpu" class="" >青浦</a>
+										
+											<a href="/ershoufang/fengxian" gahref="fengxian" class="" >奉贤</a>
+										
+											<a href="/ershoufang/jinshan" gahref="jinshan" class="" >金山</a>
+										
+											<a href="/ershoufang/chongming" gahref="chongming" class="" >崇明</a>
+										
+											<a href="/ershoufang/shanghaizhoubian" gahref="shanghaizhoubian" class="" >上海周边</a>
+										
+									</div>
+		                        </div>
+		                        
+		                    </dd>
+		                </dl>
+		                
+						
+		                <dl class="dl-lst clear gio_price">
+		                    <dt>售价：</dt>
+		                    <dd>
+		                        <div class="option-list multiChk">
+		                        	<a href="/ershoufang/" gahref="sale-price-nolimit" class="nolimit on">不限</a>
+		                            <div class="item-list">
+										
+											<a href="/ershoufang/p21" gahref="p21" class="">
+												<span class="checkbox"></span>
+												<span class="name">200万以下</span>
+											</a>
+										
+											<a href="/ershoufang/p22" gahref="p22" class="">
+												<span class="checkbox"></span>
+												<span class="name">200-300万</span>
+											</a>
+										
+											<a href="/ershoufang/p23" gahref="p23" class="">
+												<span class="checkbox"></span>
+												<span class="name">300-400万</span>
+											</a>
+										
+											<a href="/ershoufang/p24" gahref="p24" class="">
+												<span class="checkbox"></span>
+												<span class="name">400-500万</span>
+											</a>
+										
+											<a href="/ershoufang/p25" gahref="p25" class="">
+												<span class="checkbox"></span>
+												<span class="name">500-800万</span>
+											</a>
+										
+											<a href="/ershoufang/p26" gahref="p26" class="">
+												<span class="checkbox"></span>
+												<span class="name">800-1000万</span>
+											</a>
+										
+											<a href="/ershoufang/p27" gahref="p27" class="">
+												<span class="checkbox"></span>
+												<span class="name">1000万以上</span>
+											</a>
+										
+										<div class="custom">
+											<div class="txt-box"><input type="text" class="txt" name="min_price" value="" placeholder="最小" maxlength="8" /></div>&nbsp;-
+											<div class="txt-box"><input type="text" class="txt" name="max_price" value="" placeholder="最大" maxlength="8" /></div>
+											万<input type="button" gahref="price-custom-confirm" codeType="b" class="ok inputCode" value="确定" style="display:none" />
+										</div>
+									</div>
+		                        </div>
+		                    </dd>
+		                </dl>
+		                <dl class="dl-lst clear gio_area">
+		                    <dt>面积：</dt>
+		                    <dd>
+		                        <div class="option-list multiChk">
+		                            <a href="/ershoufang/" gahref="area-nolimit" class="nolimit on">不限</a>
+									<div class="item-list">
+										
+											<a href="/ershoufang/a1" gahref="a1"  class="">
+												<span class="checkbox"></span>
+												<span class="name">50平以下</span>
+											</a>
+										
+											<a href="/ershoufang/a2" gahref="a2"  class="">
+												<span class="checkbox"></span>
+												<span class="name">50-70平</span>
+											</a>
+										
+											<a href="/ershoufang/a3" gahref="a3"  class="">
+												<span class="checkbox"></span>
+												<span class="name">70-90平</span>
+											</a>
+										
+											<a href="/ershoufang/a4" gahref="a4"  class="">
+												<span class="checkbox"></span>
+												<span class="name">90-110平</span>
+											</a>
+										
+											<a href="/ershoufang/a5" gahref="a5"  class="">
+												<span class="checkbox"></span>
+												<span class="name">110-130平</span>
+											</a>
+										
+											<a href="/ershoufang/a6" gahref="a6"  class="">
+												<span class="checkbox"></span>
+												<span class="name">130-150平</span>
+											</a>
+										
+											<a href="/ershoufang/a7" gahref="a7"  class="">
+												<span class="checkbox"></span>
+												<span class="name">150平以上</span>
+											</a>
+										
+										<div class="custom">
+											<div class="txt-box"><input type="text" class="txt" name="min_area" placeholder="最小" value="" maxlength="8" /></div>&nbsp;-
+											<div class="txt-box"><input type="text" class="txt" name="max_area" placeholder="最大" value="" maxlength="8" /></div>
+												平<input type="button" gahref="area-custom-confirm" codeType="m" class="ok inputCode" value="确定" style="display:none" />
+										</div>
+									</div>
+		                        </div>
+		                    </dd>
+		                </dl>
+		                <dl class="dl-lst clear gio_room">
+		                    <dt>户型：</dt>
+		                    <dd>
+		                        <div class="option-list multiChk">
+		                        	<a href="/ershoufang/"  gahref="room-nolimit" class="nolimit on">不限</a>
+									<div class="item-list">
+										
+											<a href="/ershoufang/l1"  gahref="l1" class="">
+												<span class="checkbox"></span>
+												<span class="name">一室</span>
+											</a>
+										
+											<a href="/ershoufang/l2"  gahref="l2" class="">
+												<span class="checkbox"></span>
+												<span class="name">二室</span>
+											</a>
+										
+											<a href="/ershoufang/l3"  gahref="l3" class="">
+												<span class="checkbox"></span>
+												<span class="name">三室</span>
+											</a>
+										
+											<a href="/ershoufang/l4"  gahref="l4" class="">
+												<span class="checkbox"></span>
+												<span class="name">四室</span>
+											</a>
+										
+											<a href="/ershoufang/l5"  gahref="l5" class="">
+												<span class="checkbox"></span>
+												<span class="name">五室</span>
+											</a>
+										
+											<a href="/ershoufang/l6"  gahref="l6" class="">
+												<span class="checkbox"></span>
+												<span class="name">五室以上</span>
+											</a>
+										
+									</div>
+		                        </div>
+		                    </dd>
+		                </dl>
+						<div id="options-list-more" style="display:none">
+							<dl class="dl-lst clear gio_face">
+								<dt>朝向：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="face-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/f1" gahref="f1" class="">
+													<span class="checkbox"></span>
+													<span class="name">东</span>
+												</a>
+											
+												<a href="/ershoufang/f2" gahref="f2" class="">
+													<span class="checkbox"></span>
+													<span class="name">南</span>
+												</a>
+											
+												<a href="/ershoufang/f3" gahref="f3" class="">
+													<span class="checkbox"></span>
+													<span class="name">西</span>
+												</a>
+											
+												<a href="/ershoufang/f4" gahref="f4" class="">
+													<span class="checkbox"></span>
+													<span class="name">北</span>
+												</a>
+											
+												<a href="/ershoufang/f10" gahref="f10" class="">
+													<span class="checkbox"></span>
+													<span class="name">南北</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="dl-lst clear gio_house_age">
+								<dt>房龄：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="house-age-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/y1" gahref="y1" class="">
+													<span class="checkbox"></span>
+													<span class="name">2年内</span>
+												</a>
+											
+												<a href="/ershoufang/y2" gahref="y2" class="">
+													<span class="checkbox"></span>
+													<span class="name">2-5年</span>
+												</a>
+											
+												<a href="/ershoufang/y3" gahref="y3" class="">
+													<span class="checkbox"></span>
+													<span class="name">5-10年</span>
+												</a>
+											
+												<a href="/ershoufang/y4" gahref="y4" class="">
+													<span class="checkbox"></span>
+													<span class="name">10-20年</span>
+												</a>
+											
+												<a href="/ershoufang/y5" gahref="y5" class="">
+													<span class="checkbox"></span>
+													<span class="name">20年以上</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="dl-lst clear gio_floor">
+								<dt>楼层：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="floor-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/c1" gahref="c1" class="">
+													<span class="checkbox"></span>
+													<span class="name">低区</span>
+												</a>
+											
+												<a href="/ershoufang/c2" gahref="c2" class="">
+													<span class="checkbox"></span>
+													<span class="name">中区</span>
+												</a>
+											
+												<a href="/ershoufang/c3" gahref="c3" class="">
+													<span class="checkbox"></span>
+													<span class="name">高区</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="dl-lst clear gio_fangben">
+								<dt>房本：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="fangben-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/u2" gahref="u2" class="">
+													<span class="checkbox"></span>
+													<span class="name">满五</span>
+												</a>
+											
+												<a href="/ershoufang/u3" gahref="u3" class="">
+													<span class="checkbox"></span>
+													<span class="name">满二</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="dl-lst clear gio_decoration">
+								<dt>装修：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="decoration-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/x1" gahref="x1" class="">
+													<span class="checkbox"></span>
+													<span class="name">精装</span>
+												</a>
+											
+												<a href="/ershoufang/x2" gahref="x2" class="">
+													<span class="checkbox"></span>
+													<span class="name">豪装</span>
+												</a>
+											
+												<a href="/ershoufang/x3" gahref="x3" class="">
+													<span class="checkbox"></span>
+													<span class="name">中装</span>
+												</a>
+											
+												<a href="/ershoufang/x4" gahref="x4" class="">
+													<span class="checkbox"></span>
+													<span class="name">简装</span>
+												</a>
+											
+												<a href="/ershoufang/x5" gahref="x5" class="">
+													<span class="checkbox"></span>
+													<span class="name">毛坯</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+							<dl class="dl-lst clear gio_houseTypeCode">
+								<dt>类型：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="houseTypeCode-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											
+												<a href="/ershoufang/o1" gahref="o1" class="">
+													<span class="checkbox"></span>
+													<span class="name">住宅</span>
+												</a>
+											
+												<a href="/ershoufang/o3" gahref="o3" class="">
+													<span class="checkbox"></span>
+													<span class="name">别墅</span>
+												</a>
+											
+												<a href="/ershoufang/o4" gahref="o4" class="">
+													<span class="checkbox"></span>
+													<span class="name">其他</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+
+							<dl class="dl-lst clear gio_label">
+								<dt>标签：</dt>
+								<dd>
+									<div class="option-list multiChk">
+										<a href="/ershoufang/" gahref="lable-nolimit" class="nolimit on">不限</a>
+										<div class="item-list">
+											<a href="/ershoufang/t1" gahref="t1" class="clear ">
+												<span class="checkbox"></span>
+												<span class="name">地铁房</span>
+											</a>
+											
+												<a href="/ershoufang/v2" gahref="v2" class="clear ">
+													<span class="checkbox"></span>
+													<span class="name">有钥匙</span>
+												</a>
+											
+												<a href="/ershoufang/v4" gahref="v4" class="clear ">
+													<span class="checkbox"></span>
+													<span class="name">新上</span>
+												</a>
+											
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</div>
+						<div class="options-list-more-switch-wrap">
+							<a id="options-list-more-switch" status="0">
+								<span class="text">展开选项（楼层、房龄、朝向等）</span>
+								<span class="icon"></span>
+							</a>
+						</div>
+		            </div>
+
+		            
+		            <div class="filter-bar01">
+		                <div class="sort-bar" id="sort-bar">
+		                    <span>排序：</span>
+		                    <div class="sort-parent on">
+		                    	<a href="/ershoufang/s" gahref="default-orxxder"><span>默认</span></a>
+		                    </div>
+		                    
+		                    <div class="sort-parent ">
+		                        <span>价格</span>
+		                        <i></i>
+		                        <ul class="sort-children">
+		                            <li><a href="/ershoufang/s1"  gahref="s1">总价从低到高</a></li>
+		                            <li><a href="/ershoufang/s2"  gahref="s2">总价从高到低</a></li>
+		                            <li><a href="/ershoufang/s3"  gahref="s3">单价从低到高</a></li>
+		                            <li><a href="/ershoufang/s4" gahref="s4">单价从高到低</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="sort-parent ">
+		                        <span>面积</span>
+		                        <i></i>
+		                        <ul class="sort-children">
+		                            <li><a href="/ershoufang/s6" gahref="s6">面积从小到大</a></li>
+		                            <li><a href="/ershoufang/s5" gahref="s5">面积从大到小</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="sort-parent ">
+		                        <span>带看</span>
+		                        <i></i>
+		                        <ul class="sort-children">
+		                            <li><a href="/ershoufang/s8" gahref="s8">带看量从多到少</a></li>
+		                            <li><a href="/ershoufang/s9" gahref="s9">带看量从少到多</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="sort-parent ">
+		                    	<a href="/ershoufang/s7" gahref="s7"><span>最新</span></a>
+		                	</div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <!--end: 筛选条件-->
+		    <!--begin: 数据卡片-->
+		    
+		    
+
+
+
+
+
+
+
+
+		
+		
+		
+		    
+		    <!--end: 数据卡片-->
+
+		    <!--begin: 搜索结果-->
+		    
+
+
+
+
+
+
+
+
+<div class="main-box clear">
+	<div class="con-box">
+		<div class="list-head clear">
+			<a href="/ditu?dataId=sh&type=city" class="btn_map_result fr ml_20" target="_blank">地图查看</a>
+			<h2>
+				为您找到<span>77977</span>套上海二手房源
+			</h2>
+			<div class="view-type" id="viewType">
+				<div class="modeshows modeshow">
+					<span class="l-show view-mod" gahref="results_lshow" data-type="real" id="lshow">
+						<i></i>
+						实景图模式
+					</span>
+				</div>
+				<div class="modeshows">
+					<span class="h-show view-mod" gahref="results_hshow"  data-type="layout" id="hshow">
+						<i></i>
+						户型图模式
+						<label class="ico ico-new"></label>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="list-wrap">
+			<ul id="house-lst" class="house-lst">
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_1" key="sh4495155" target="_blank" href="/ershoufang/sh4495155.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170206/0cd1376d-18d0-4f05-a298-6f73413589e3.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20160712/40aa8195-2606-4e0b-bd8b-9d867eb72766.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170206/0cd1376d-18d0-4f05-a298-6f73413589e3.jpg_200x150.jpg" class="lj-lazy" alt="林云小区，低区出入方便，业主信赖，满五税费低" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_1" key="sh4495155" target="_blank" href="/ershoufang/sh4495155.html" title="林云小区，低区出入方便，业主信赖，满五税费低">林云小区，低区出入方便，业主信赖，满五税费低</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000012363.html"><span class="nameEllipsis" title="林云小区">林云小区</span></a>&nbsp;&nbsp;
+								<span>1室0厅&nbsp;&nbsp;</span>
+								<span>35.89平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/hongkou/">虹口</a>
+									<a href="/ershoufang/quyang/">曲阳</a>
+									
+									<span>| </span>低区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离10号线同济大学站996米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">245</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">68264元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">42</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_2" key="sh4557559" target="_blank" href="/ershoufang/sh4557559.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170320/905076fd-88bf-4037-9f92-3d6bbbfc21eb.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170331/62b007e2-5d27-4758-a6d8-3a0b6a12e148.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170320/905076fd-88bf-4037-9f92-3d6bbbfc21eb.jpg_200x150.jpg" class="lj-lazy" alt="诚意出售，南北通透，生活很便利，实地看房" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_2" key="sh4557559" target="_blank" href="/ershoufang/sh4557559.html" title="诚意出售，南北通透，生活很便利，实地看房">诚意出售，南北通透，生活很便利，实地看房</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000012380.html"><span class="nameEllipsis" title="古美三村">古美三村</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>61.17平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/minhang/">闵行</a>
+									<a href="/ershoufang/gumei/">古美</a>
+									
+									<span>| </span>低区/6层
+									
+									
+									<span>| </span>朝南北
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离12号线顾戴路站936米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">355</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">58034元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">16</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_3" key="sh4546866" target="_blank" href="/ershoufang/sh4546866.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170313/7eed3691-7ad4-41a0-8f2f-42ec0406367a.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170326/e22d2d6d-ad29-49a3-89be-27b10a2aff0b.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170313/7eed3691-7ad4-41a0-8f2f-42ec0406367a.jpg_200x150.jpg" class="lj-lazy" alt="汇元坊，配套完善，好楼层，有装修" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_3" key="sh4546866" target="_blank" href="/ershoufang/sh4546866.html" title="汇元坊，配套完善，好楼层，有装修">汇元坊，配套完善，好楼层，有装修</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000011541.html"><span class="nameEllipsis" title="汇元坊">汇元坊</span></a>&nbsp;&nbsp;
+								<span>2室2厅&nbsp;&nbsp;</span>
+								<span>94.35平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/yangpu/">杨浦</a>
+									<a href="/ershoufang/huangxinggongyuan/">黄兴公园</a>
+									
+									<span>| </span>中区/15层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线黄兴公园站935米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">770</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">81611元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">16</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_4" key="sh4539166" target="_blank" href="/ershoufang/sh4539166.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/f0ad406e-23a5-4244-97ea-4449ee26fa84.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170323/485a8679-de3d-417e-bf5d-31f67735cdca.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/f0ad406e-23a5-4244-97ea-4449ee26fa84.jpg_200x150.jpg" class="lj-lazy" alt="近地铁，2室0厅，享受好房，经典好房" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_4" key="sh4539166" target="_blank" href="/ershoufang/sh4539166.html" title="近地铁，2室0厅，享受好房，经典好房">近地铁，2室0厅，享受好房，经典好房</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000013093.html"><span class="nameEllipsis" title="瞿溪新村">瞿溪新村</span></a>&nbsp;&nbsp;
+								<span>2室0厅&nbsp;&nbsp;</span>
+								<span>57.59平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/huangpu/">黄浦</a>
+									<a href="/ershoufang/shibobinjiang/">世博滨江</a>
+									
+									<span>| </span>低区/7层
+									
+									
+									<span>| </span>朝南北
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离4号线南浦大桥站529米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">530</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">92029元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">15</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_5" key="sh4526602" target="_blank" href="/ershoufang/sh4526602.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170331/b6eba2b5-40f6-4f74-8ac2-999d44c4274b.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170304/4cbcdd28-da1f-408d-a44c-ccd3cf0dcabb.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170331/b6eba2b5-40f6-4f74-8ac2-999d44c4274b.jpg_200x150.jpg" class="lj-lazy" alt="生活很便利，配套完善，上下楼方便，有钥匙方便看" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_5" key="sh4526602" target="_blank" href="/ershoufang/sh4526602.html" title="生活很便利，配套完善，上下楼方便，有钥匙方便看">生活很便利，配套完善，上下楼方便，有钥匙方便看</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000012138.html"><span class="nameEllipsis" title="由由七村">由由七村</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>57.9平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/pudongxinqu/">浦东</a>
+									<a href="/ershoufang/beicai/">北蔡</a>
+									
+									<span>| </span>低区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离7号线杨高南路站289米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">330</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">56994元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">38</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_6" key="sh4526585" target="_blank" href="/ershoufang/sh4526585.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/87ffda0b-0806-435a-8577-34879b681fce.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170323/9dc13073-b07b-4e7b-8ca7-a843391d2e78.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/87ffda0b-0806-435a-8577-34879b681fce.jpg_200x150.jpg" class="lj-lazy" alt="生活很便利，视野很好，好房待售，配套完善" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_6" key="sh4526585" target="_blank" href="/ershoufang/sh4526585.html" title="生活很便利，视野很好，好房待售，配套完善">生活很便利，视野很好，好房待售，配套完善</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000011056.html"><span class="nameEllipsis" title="桂平小区">桂平小区</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>75.31平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/xuhui/">徐汇</a>
+									<a href="/ershoufang/kangjian/">康健</a>
+									
+									<span>| </span>高区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离12号线虹漕路站590米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">500</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">66392元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">25</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_7" key="sh4500530" target="_blank" href="/ershoufang/sh4500530.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170220/f26ac519-cbab-4b07-9620-4070ba4b410d.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170317/5feb555e-d2f7-4c65-9947-add78e0cbe9a.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170220/f26ac519-cbab-4b07-9620-4070ba4b410d.jpg_200x150.jpg" class="lj-lazy" alt="大二小区，上门实勘，高区景观房，看房有钥匙" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_7" key="sh4500530" target="_blank" href="/ershoufang/sh4500530.html" title="大二小区，上门实勘，高区景观房，看房有钥匙">大二小区，上门实勘，高区景观房，看房有钥匙</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000002994.html"><span class="nameEllipsis" title="大二小区">大二小区</span></a>&nbsp;&nbsp;
+								<span>1室0厅&nbsp;&nbsp;</span>
+								<span>32.66平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/hongkou/">虹口</a>
+									<a href="/ershoufang/quyang/">曲阳</a>
+									
+									<span>| </span>高区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线曲阳路站466米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">230</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">70422元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">16</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_8" key="sh4566157" target="_blank" href="/ershoufang/sh4566157.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20161229/4be9afed-2884-42fd-a608-ab7397df026a.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170103/e5d49b23-7fa9-40fa-b110-3d0de10e3530.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20161229/4be9afed-2884-42fd-a608-ab7397df026a.jpg_200x150.jpg" class="lj-lazy" alt="成熟社区，钥匙在店，精致户型，高清大图" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_8" key="sh4566157" target="_blank" href="/ershoufang/sh4566157.html" title="成熟社区，钥匙在店，精致户型，高清大图">成熟社区，钥匙在店，精致户型，高清大图</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000019564.html"><span class="nameEllipsis" title="黄兴路619弄">黄兴路619弄</span></a>&nbsp;&nbsp;
+								<span>2室2厅&nbsp;&nbsp;</span>
+								<span>46.17平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/yangpu/">杨浦</a>
+									<a href="/ershoufang/kongjianglu/">控江路</a>
+									
+									<span>| </span>高区/3层
+									
+									
+									<span>| </span>朝南北
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线黄兴路站288米</span></span>
+										
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">380</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">82304元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">44</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_9" key="sh4509659" target="_blank" href="/ershoufang/sh4509659.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170216/9716fefe-68d6-47cb-88f3-c5243d307179.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170227/393fccee-e734-4a06-bdd8-64ae59a77cf0.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170216/9716fefe-68d6-47cb-88f3-c5243d307179.jpg_200x150.jpg" class="lj-lazy" alt="隆昌路702弄，两室户，高清大图，成熟社区" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_9" key="sh4509659" target="_blank" href="/ershoufang/sh4509659.html" title="隆昌路702弄，两室户，高清大图，成熟社区">隆昌路702弄，两室户，高清大图，成熟社区</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000004605.html"><span class="nameEllipsis" title="隆昌路702弄">隆昌路702弄</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>47.38平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/yangpu/">杨浦</a>
+									<a href="/ershoufang/zhoujiazuilu/">周家嘴路</a>
+									
+									<span>| </span>高区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线延吉中路站681米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">267</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">56352元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">6</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_10" key="sh4482527" target="_blank" href="/ershoufang/sh4482527.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170111/107f2309-7558-40f6-a6b1-46610203498f.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170207/15bdda8f-064a-48ff-aa28-cba519f6b096.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170111/107f2309-7558-40f6-a6b1-46610203498f.jpg_200x150.jpg" class="lj-lazy" alt="德州二村，1室1厅1卫，满5税费少，好房待售" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_10" key="sh4482527" target="_blank" href="/ershoufang/sh4482527.html" title="德州二村，1室1厅1卫，满5税费少，好房待售">德州二村，1室1厅1卫，满5税费少，好房待售</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000017471.html"><span class="nameEllipsis" title="德州二村">德州二村</span></a>&nbsp;&nbsp;
+								<span>1室1厅&nbsp;&nbsp;</span>
+								<span>38.12平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/pudongxinqu/">浦东</a>
+									<a href="/ershoufang/shibo/">世博</a>
+									
+									<span>| </span>高区/5层
+									
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线成山路站417米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">235</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">61647元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">10</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_11" key="sh4336433" target="_blank" href="/ershoufang/sh4336433.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20161017/d4556eff-dc6b-4c6f-b16e-f412bc5d6c67.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20161021/5eebf892-e882-4404-87e6-41f79593cdf0.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20161017/d4556eff-dc6b-4c6f-b16e-f412bc5d6c67.jpg_200x150.jpg" class="lj-lazy" alt="棠浦路105号，上门实勘，光线非常好，配套完善" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_11" key="sh4336433" target="_blank" href="/ershoufang/sh4336433.html" title="棠浦路105号，上门实勘，光线非常好，配套完善">棠浦路105号，上门实勘，光线非常好，配套完善</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5014940594516184.html"><span class="nameEllipsis" title="棠浦路105号">棠浦路105号</span></a>&nbsp;&nbsp;
+								<span>1室1厅&nbsp;&nbsp;</span>
+								<span>44.04平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/putuo/">普陀</a>
+									<a href="/ershoufang/caoyang/">曹杨</a>
+									
+									<span>| </span>高区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离11号线枫桥路站572米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">300</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">68119元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">3</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_12" key="sh4414070" target="_blank" href="/ershoufang/sh4414070.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170219/3da5d0c0-7135-4158-8a71-b9ecd68fbccd.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170318/58300c8f-2127-43f0-8c0f-f2851691e62a.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170219/3da5d0c0-7135-4158-8a71-b9ecd68fbccd.jpg_200x150.jpg" class="lj-lazy" alt="3室2厅，品质装修，好房待售，附近有地铁" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_12" key="sh4414070" target="_blank" href="/ershoufang/sh4414070.html" title="3室2厅，品质装修，好房待售，附近有地铁">3室2厅，品质装修，好房待售，附近有地铁</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000003038.html"><span class="nameEllipsis" title="万立城（公寓）">万立城（公寓）</span></a>&nbsp;&nbsp;
+								<span>3室2厅&nbsp;&nbsp;</span>
+								<span>102.0平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/jiading/">嘉定</a>
+									<a href="/ershoufang/anting/">安亭</a>
+									
+									<span>| </span>中区/24层
+									
+									
+									<span>| </span>朝南北
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离11号线上海汽车城站537米</span></span>
+										
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">310</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">30392元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">23</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_13" key="sh4540250" target="_blank" href="/ershoufang/sh4540250.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170301/62a9a206-7b31-48fe-8aba-4ed174eeda7a.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170322/54419f5f-5ff3-4ca7-8d1d-34a5aa8d3324.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170301/62a9a206-7b31-48fe-8aba-4ed174eeda7a.jpg_200x150.jpg" class="lj-lazy" alt="新梅广场，交通便利，高清大图，业主诚意出售" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_13" key="sh4540250" target="_blank" href="/ershoufang/sh4540250.html" title="新梅广场，交通便利，高清大图，业主诚意出售">新梅广场，交通便利，高清大图，业主诚意出售</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000013393.html"><span class="nameEllipsis" title="新梅广场">新梅广场</span></a>&nbsp;&nbsp;
+								<span>2室2厅&nbsp;&nbsp;</span>
+								<span>96.7平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/minhang/">闵行</a>
+									<a href="/ershoufang/gumei/">古美</a>
+									
+									<span>| </span>中区/12层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离1号线外环路站347米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">550</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">56876元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">58</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_14" key="sh4526982" target="_blank" href="/ershoufang/sh4526982.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170227/8b54c3c7-c6f1-4dbd-a256-217159e8aebd.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20160918/9b9d5ca7-11e3-4a85-b03d-716f997eaf42.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170227/8b54c3c7-c6f1-4dbd-a256-217159e8aebd.jpg_200x150.jpg" class="lj-lazy" alt="链家有钥匙，看房客户多，小户型，高清大图" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_14" key="sh4526982" target="_blank" href="/ershoufang/sh4526982.html" title="链家有钥匙，看房客户多，小户型，高清大图">链家有钥匙，看房客户多，小户型，高清大图</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000011389.html"><span class="nameEllipsis" title="浣纱六村">浣纱六村</span></a>&nbsp;&nbsp;
+								<span>1室1厅&nbsp;&nbsp;</span>
+								<span>59.64平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/yangpu/">杨浦</a>
+									<a href="/ershoufang/huangxinggongyuan/">黄兴公园</a>
+									
+									<span>| </span>中区/7层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离8号线黄兴公园站296米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">380</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">63715元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">20</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_15" key="sh4473915" target="_blank" href="/ershoufang/sh4473915.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170105/1ba8ad97-a3bf-42c5-acae-d77ce04c47bf.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20160613/e0fe0d15-07c5-4c17-9d51-a9fd0c6a0b2a.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170105/1ba8ad97-a3bf-42c5-acae-d77ce04c47bf.jpg_200x150.jpg" class="lj-lazy" alt="淞南五村，装修精美，高区阳光房，2室1厅" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_15" key="sh4473915" target="_blank" href="/ershoufang/sh4473915.html" title="淞南五村，装修精美，高区阳光房，2室1厅">淞南五村，装修精美，高区阳光房，2室1厅</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000012725.html"><span class="nameEllipsis" title="淞南五村">淞南五村</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>76.08平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/baoshan/">宝山</a>
+									<a href="/ershoufang/songnan/">淞南</a>
+									
+									<span>| </span>高区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离3号线长江南路站934米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">360</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">47318元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">65</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_16" key="sh4461552" target="_blank" href="/ershoufang/sh4461552.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170111/ff819703-e955-4348-8bd0-efdef2c78557.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20150310/18a2bbd5-42f6-46b8-aaea-4b533dd9d487.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170111/ff819703-e955-4348-8bd0-efdef2c78557.jpg_200x150.jpg" class="lj-lazy" alt="链家好房，低区出入方便，满五年少税，成熟社区" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_16" key="sh4461552" target="_blank" href="/ershoufang/sh4461552.html" title="链家好房，低区出入方便，满五年少税，成熟社区">链家好房，低区出入方便，满五年少税，成熟社区</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000015024.html"><span class="nameEllipsis" title="金桂苑（徐汇）">金桂苑（徐汇）</span></a>&nbsp;&nbsp;
+								<span>3室2厅&nbsp;&nbsp;</span>
+								<span>140.43平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/xuhui/">徐汇</a>
+									<a href="/ershoufang/kangjian/">康健</a>
+									
+									<span>| </span>低区/24层
+									
+									
+									<span>| </span>朝东南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离12号线虹漕路站254米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">580</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">41301元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">79</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_17" key="sh4550525" target="_blank" href="/ershoufang/sh4550525.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170316/faded4e0-9d60-4e95-944a-34c0b55da967.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170401/3f63f7f4-e7ab-46b1-93db-a75e770d1db2.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170316/faded4e0-9d60-4e95-944a-34c0b55da967.jpg_200x150.jpg" class="lj-lazy" alt="通河二村，配套完善，受欢迎好房，高清实拍" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_17" key="sh4550525" target="_blank" href="/ershoufang/sh4550525.html" title="通河二村，配套完善，受欢迎好房，高清实拍">通河二村，配套完善，受欢迎好房，高清实拍</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000015088.html"><span class="nameEllipsis" title="通河二村">通河二村</span></a>&nbsp;&nbsp;
+								<span>3室1厅&nbsp;&nbsp;</span>
+								<span>76.59平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/baoshan/">宝山</a>
+									<a href="/ershoufang/tonghe/">通河</a>
+									
+									<span>| </span>中区/6层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离1号线通河新村站855米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">380</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">49614元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">17</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_18" key="sh4548693" target="_blank" href="/ershoufang/sh4548693.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170324/f31fb680-d74e-4dbe-8756-861a4910efaa.jpg_200x150.jpg" data-img-layout="" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170324/f31fb680-d74e-4dbe-8756-861a4910efaa.jpg_200x150.jpg" class="lj-lazy" alt="高清大图，省装修费，业主诚意出售，有钥匙房源" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_18" key="sh4548693" target="_blank" href="/ershoufang/sh4548693.html" title="高清大图，省装修费，业主诚意出售，有钥匙房源">高清大图，省装修费，业主诚意出售，有钥匙房源</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000016976.html"><span class="nameEllipsis" title="明日星城">明日星城</span></a>&nbsp;&nbsp;
+								<span>2室2厅&nbsp;&nbsp;</span>
+								<span>99.19平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/huangpu/">黄浦</a>
+									<a href="/ershoufang/dongjiadu/">董家渡</a>
+									
+									<span>| </span>高区/18层
+									
+									
+									<span>| </span>朝南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离9号线小南门站574米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">889</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">89625元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">48</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_19" key="sh4541041" target="_blank" href="/ershoufang/sh4541041.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170312/b7ebb733-74cb-4c0d-b475-342b7af2d4f3.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170323/acbf3d31-ef49-4be0-81f2-5fbf2559012c.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170312/b7ebb733-74cb-4c0d-b475-342b7af2d4f3.jpg_200x150.jpg" class="lj-lazy" alt="有钥匙，无装修，两室户，多次带看" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_19" key="sh4541041" target="_blank" href="/ershoufang/sh4541041.html" title="有钥匙，无装修，两室户，多次带看">有钥匙，无装修，两室户，多次带看</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000013455.html"><span class="nameEllipsis" title="金橘新苑">金橘新苑</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>85.11平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/pudongxinqu/">浦东</a>
+									<a href="/ershoufang/sanlin/">三林</a>
+									
+									<span>| </span>高区/16层
+									
+									
+									<span>| </span>朝南北
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离11号线三林东站576米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">530</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">62272元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">31</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="pic-panel">
+						<a name="selectDetail"  gahref="results_click_order_20" key="sh4538958" target="_blank" href="/ershoufang/sh4538958.html"><img onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;" src="http://cdn7.dooioo.com/static/img/new-version/default_block.png"  data-img-real="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170308/8be2467f-9228-49ea-a55c-11eaebe48fbd.jpg_200x150.jpg" data-img-layout="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170321/dc16c767-4ac0-4fd9-b902-345b59ba6f4a.jpg_200x150.jpg" data-original="http://cdn1.dooioo.com/fetch/vp/fy/gi/20170308/8be2467f-9228-49ea-a55c-11eaebe48fbd.jpg_200x150.jpg" class="lj-lazy" alt="业主诚意出售，省装修费，享受好房，最近看房多" />
+							<!-- 如果有视频 加上这个div  否则不用 -->
+							
+							<div class="global__video-icon global__video-icon--small global__video-icon--right"></div>
+							
+						</a>
+
+						<!-- 如果有小区推荐标签 加上这个div  否则不用 -->
+						
+					</div>
+					<div class="info-panel">
+						<h2><a name="selectDetail"  gahref="results_click_order_20" key="sh4538958" target="_blank" href="/ershoufang/sh4538958.html" title="业主诚意出售，省装修费，享受好房，最近看房多">业主诚意出售，省装修费，享受好房，最近看房多</a>
+						
+						</h2>
+						<div class="col-1">
+							<div class="where">
+								<a class="laisuzhou" href="/xiaoqu/5011000005307.html"><span class="nameEllipsis" title="明园公寓">明园公寓</span></a>&nbsp;&nbsp;
+								<span>2室1厅&nbsp;&nbsp;</span>
+								<span>76.01平&nbsp;&nbsp;</span>
+							</div>
+							<div class="other">
+								<div class="con">
+									<a href="/ershoufang/yangpu/">杨浦</a>
+									<a href="/ershoufang/dongwaitan/">东外滩</a>
+									
+									<span>| </span>高区/24层
+									
+									
+									<span>| </span>朝西南
+									
+									
+								</div>
+							</div>
+							<div class="chanquan">
+								<div class="left agency">
+									<div class="view-label left">
+										
+										
+										<span class="fang-subway"></span>
+										<span class="fang-subway-ex"><span>距离12号线江浦公园站497米</span></span>
+										
+										
+										<span class="taxfree"></span>
+										<span class="taxfree-ex"><span>满五</span></span>
+										
+										
+										
+										<span class="haskey"></span>
+										<span class="haskey-ex"><span>有钥匙</span></span>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="price">
+								<span class="num">490</span>万
+								
+								
+								
+							</div>
+							<div class="price-pre">64465元/平</div>
+						</div>
+						<div class="col-2">
+							<div class="square"><div>
+								<span class="num">24</span>人
+							</div>
+							<div class="col-look">看过此房</div>
+						</div>
+					</div>
+					</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<!--begin: 翻页组件-->
+		
+			<div class="page-box house-lst-page-box">
+		
+	
+        	<a href="/ershoufang/d1" class="on" gahref="results_d1">1</a>
+        	<a href="/ershoufang/d2" gahref="results_d2">2</a>
+        	<a href="/ershoufang/d3" gahref="results_d3">3</a>
+	
+	        <a href="/ershoufang/d4"  gahref="results_d4">4</a>
+	        <a href="/ershoufang/d5"  gahref="results_d5">5</a>
+	        <a href="/ershoufang/d6"  gahref="results_d6">6</a>
+	        <a href="/ershoufang/d7"  gahref="results_d7">7</a>
+	
+		&nbsp;...&nbsp;
+		<a href="/ershoufang/d100" gahref="results_totalpage">100</a>
+	
+	    <a href="/ershoufang/d2" gahref="results_next_page" >下一页</a>
+	
+</div>
+		
+		<!--end: 翻页组件-->
+	</div>
+</div>
+
+<!--begin: 没有搜索结果时：附近小区推荐｜推荐房源-->
+
+<!--end: 没有搜索结果时：附近小区推荐｜推荐房源-->
+
+<!--begin:模板－房源推荐-->
+    <textarea id="template_recommendHouse" style="display:none">
+		{#foreach $T.list as house}
+            <li>
+				<div class="pic">
+					<a href="/ershoufang/{$T.house.sellCityCode}{$T.house.houseSellId}.html" gahref="tuijian_open_{($T.currentPage-1)*$T.maxPerPage+$T.house$index+1}">
+						<img src="{$T.house.photourl}" onerror="this.src='http://cdn7.dooioo.com/static/img/new-version/default_block.png'; this.onerror=null;">
+					</a>
+					<span>{$T.house.price}万</span>
+				</div>
+				<div class="title">
+					<span class="name" title="{$T.house.name}"><a href="/ershoufang/{$T.house.sellCityCode}{$T.house.houseSellId}.html" gahref="tuijian_open_{($T.currentPage-1)*$T.maxPerPage+$T.house$index+1}">{$T.house.name}</a></span>
+					<span class="info"><span class="grey">{$T.house.room}室{$T.house.hall}厅/{$T.house.area}平</span></span>
+				</div>
+			</li>
+        {#/for}
+        <li class="fix_align"></li>
+    </textarea>
+<!--end:模板－房源推荐-->
+		    <!--end: 搜索结果-->
+		</div>
+	    <!--end: 正文-->
+
+	<script>
+		//获取用户登录状态及信息后的回调方法（一定要放在footer.jsp之前）
+		function callback_getUserInfo(){
+			//已保存搜索初始化
+			var fromSaveSearch = getParamValueFromUrlByKey("from") == "saveSearch";
+			if(fromSaveSearch){
+				$("#btn_saveSearch").addClass("disabled"); //如果页面从已保存搜索条件点击进入，则［保存搜索］按钮disabled
+			}
+			$("#btn_saveSearch").css({display:'inline-block'}); //［保存搜索］按钮显示
+		}
+	</script>
+
+	
+
+
+
+
+
+
+
+
+
+		<!--begin: 登录弹层-->
+		<div class="loninContainer" id="loninContainer"></div>
+		<!--end: 登录弹层-->
+
+		<!--begin: footer-->
+		<div id="footer-wrapper-placeholder"></div>
+		<!--end: footer-->
+
+		<!--begin: fix-right-->
+		<div id="side-bar-tools-placeholder"></div>
+		<!--end: fix-right-->
+
+		<!-- 微聊 -->
+        <div id="ng-app" ng-app="weiliaoApp" style="position: absolute;"> <div weiliao-win></div> </div>
+		<!-- 微聊  end-->
+
+		<script src="http://sh.lianjia.com/public/js/loginpoplayer.js?v=1491022000000"></script>
+		<script src="http://sh.lianjia.com/public/js/jquery/jquery.lazyload.min.js"></script>
+		<script src="http://sh.lianjia.com/public/js/passport.js?v=1491022000000"></script>
+		<script src="http://cdn7.dooioo.com/static/js/suggestion.js?v=1491022000000"></script>
+		
+		<script src="http://cdn7.dooioo.com/static/js/search.js?v=1491022000000"></script>
+		
+
+
+		<script src="http://sh.lianjia.com/public/js/weiliao/AV.realtime.js"></script>
+		<script src="http://sh.lianjia.com/public/js/lib/angular.min.js"></script>
+		<script src="http://sh.lianjia.com/public/js/weiliao/weiliao.min.js?v=1491022000000"></script>
+		<script src="http://sh.lianjia.com/public/js/footer/bundle.js?v=1491022000000"></script>
+		<script src="http://sh.lianjia.com/public/js/user.js?v=1491022000000"></script>
+	<script>
+		var nowUrl = "";
+		var pagePrefix = "/ershoufang"
+		var ubtData = {
+			searchType : "GoHouseDetail",
+			searchKeyword : "",
+			resultNum : "77977",
+		};
+		var init = {
+			recommendHouseList : [ //推荐房源列表
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170206/0cd1376d-18d0-4f05-a298-6f73413589e3.jpg_200x150.jpg",
+						
+						price: "245",
+						name: "林云小区",
+						room: "1",
+						hall: "0",
+						area: "35.89",
+						houseSellId: "4495155",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170320/905076fd-88bf-4037-9f92-3d6bbbfc21eb.jpg_200x150.jpg",
+						
+						price: "355",
+						name: "古美三村",
+						room: "2",
+						hall: "1",
+						area: "61.17",
+						houseSellId: "4557559",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170313/7eed3691-7ad4-41a0-8f2f-42ec0406367a.jpg_200x150.jpg",
+						
+						price: "770",
+						name: "汇元坊",
+						room: "2",
+						hall: "2",
+						area: "94.35",
+						houseSellId: "4546866",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/f0ad406e-23a5-4244-97ea-4449ee26fa84.jpg_200x150.jpg",
+						
+						price: "530",
+						name: "瞿溪新村",
+						room: "2",
+						hall: "0",
+						area: "57.59",
+						houseSellId: "4539166",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170331/b6eba2b5-40f6-4f74-8ac2-999d44c4274b.jpg_200x150.jpg",
+						
+						price: "330",
+						name: "由由七村",
+						room: "2",
+						hall: "1",
+						area: "57.9",
+						houseSellId: "4526602",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170311/87ffda0b-0806-435a-8577-34879b681fce.jpg_200x150.jpg",
+						
+						price: "500",
+						name: "桂平小区",
+						room: "2",
+						hall: "1",
+						area: "75.31",
+						houseSellId: "4526585",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170220/f26ac519-cbab-4b07-9620-4070ba4b410d.jpg_200x150.jpg",
+						
+						price: "230",
+						name: "大二小区",
+						room: "1",
+						hall: "0",
+						area: "32.66",
+						houseSellId: "4500530",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20161229/4be9afed-2884-42fd-a608-ab7397df026a.jpg_200x150.jpg",
+						
+						price: "380",
+						name: "黄兴路619弄",
+						room: "2",
+						hall: "2",
+						area: "46.17",
+						houseSellId: "4566157",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170216/9716fefe-68d6-47cb-88f3-c5243d307179.jpg_200x150.jpg",
+						
+						price: "267",
+						name: "隆昌路702弄",
+						room: "2",
+						hall: "1",
+						area: "47.38",
+						houseSellId: "4509659",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170111/107f2309-7558-40f6-a6b1-46610203498f.jpg_200x150.jpg",
+						
+						price: "235",
+						name: "德州二村",
+						room: "1",
+						hall: "1",
+						area: "38.12",
+						houseSellId: "4482527",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20161017/d4556eff-dc6b-4c6f-b16e-f412bc5d6c67.jpg_200x150.jpg",
+						
+						price: "300",
+						name: "棠浦路105号",
+						room: "1",
+						hall: "1",
+						area: "44.04",
+						houseSellId: "4336433",
+						sellCityCode: "sh"
+					},
+				
+					{
+						
+						
+						photourl: "http://cdn1.dooioo.com/fetch/vp/fy/gi/20170219/3da5d0c0-7135-4158-8a71-b9ecd68fbccd.jpg_200x150.jpg",
+						
+						price: "310",
+						name: "万立城（公寓）",
+						room: "3",
+						hall: "2",
+						area: "102.0",
+						houseSellId: "4414070",
+						sellCityCode: "sh"
+					},
+				
+					],
+			recommendHouseListPageNo : 1, //推荐房源当前页号
+			searchConditionsSize: 0//筛选条件个数
+		};
+
+		if(window.sessionStorage){
+			delete window.sessionStorage['isDidSearch'];
+		}
+	</script>
+	<script src="http://cdn7.dooioo.com/static/js/ershoufang/saveSearchConditions.js?v=1491022000000"></script>
+	<script src="http://cdn7.dooioo.com/static/js/ershoufang/ershoufang_list.js?v=1491022000000"></script>
+</body>
+</html>
+	    
